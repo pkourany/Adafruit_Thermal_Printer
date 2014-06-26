@@ -44,10 +44,7 @@ void setup(){
   pinMode(7, OUTPUT); digitalWrite(7, LOW);	// To also work w/IoTP printer
 #endif
 
-  while(!Serial.available()) SPARK_WLAN_Loop();
-  Serial.read();
   printer.begin();
-  while(1);
   // The following function calls are in setup(), but do not need to be.
   // Use them anywhere!  They're just here so they're run only one time
   // and not printed over and over.
