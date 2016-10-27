@@ -5,7 +5,7 @@ These printers use TTL serial to communicate, 2 pins are required.
 Original Adafruit tutorial with wiring diagrams, images, etc. is available at 
 http://www.ladyada.net/products/thermalprinter/
 
-** On the Particle Photon connect the thermal printer to the RX and TX pins.**
+**On the Particle Photon connect the thermal printer to the RX and TX pins.**
 
 ---
 
